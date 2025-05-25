@@ -1,9 +1,9 @@
 # GENSYN-NODE-GUIDE (BY-NTEK-EARNING)
 GENSYN NODE GUIDE (BY NTEK EARNING)
 
-## 😱😱 Gensyn Node Guide 💖💖💖
+## ðŸ˜±ðŸ˜± Gensyn Node Guide ðŸ’–ðŸ’–ðŸ’–
 
-## INSTALLATION COMMANDS (Only VPS) 👇🏻
+## INSTALLATION COMMANDS (Only VPS) ðŸ‘‡ðŸ»
 
 1. sudo apt update
 
@@ -19,7 +19,7 @@ GENSYN NODE GUIDE (BY NTEK EARNING)
 
 7. cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-testnet.git && chmod +x gensyn-testnet/gensyn.sh && ./gensyn-testnet/gensyn.sh
 
-## IF ANY ERROR TRY THIS 👇
+## IF ANY ERROR TRY THIS ðŸ‘‡
 
 # (Main Error Solution Command) 
 
@@ -29,20 +29,20 @@ GENSYN NODE GUIDE (BY NTEK EARNING)
 
 10. RL_SWARM_UNSLOTH=False ./run_rl_swarm.sh
 
-## BACKUP COMMAND 👇
+## BACKUP COMMAND ðŸ‘‡
 
 11. [ -f backup.sh ] && rm backup.sh; curl -sSL -O https://raw.githubusercontent.com/AbhiEBA/gensyn1/main/backup.sh && chmod +x backup.sh && ./backup.sh
 
-## CHECK NEXT DAY OR AGAIN NODE STATUS 👇
+## CHECK NEXT DAY OR AGAIN NODE STATUS ðŸ‘‡
 
 12. screen -ls
 13. screen -r
 
-## IF YOU NEED DELETE SCREEN 👇
+## IF YOU NEED DELETE SCREEN ðŸ‘‡
 
 14. screen -X S 65432.Gensyn Quit
 
-## CHECK YOUR INTRACTION 👇
+## CHECK YOUR INTRACTION ðŸ‘‡
 
 ## Bot1 : https://t.me/gensyntrackbot
 ## Bot2 : https://t.me/gensyn_rewards_me_bot

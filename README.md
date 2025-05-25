@@ -47,6 +47,6 @@ GENSYN NODE GUIDE (BY NTEK EARNING)
 ## Bot1 : https://t.me/gensyntrackbot
 ## Bot2 : https://t.me/gensyn_rewards_me_bot
 ## Explorer : https://gensyn-testnet.explorer.alchemy.com 
-##Dashboard: https://dashboard.gensyn.ai/
+## Dashboard: https://dashboard.gensyn.ai/
 
 ## Join Telegram Channel : https://t.me/ntekearning2

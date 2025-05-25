@@ -1,9 +1,9 @@
 # GENSYN-NODE-GUIDE-BY-NTEK-EARNING-
 GENSYN NODE GUIDE (BY NTEK EARNING)
 
-😱😱 Gensyn Node Guide 💖💖💖
+## 😱😱 Gensyn Node Guide 💖💖💖
 
-📌 INSTALLATION COMMANDS (Only VPS) 👇🏻
+## INSTALLATION COMMANDS (Only VPS) 👇🏻
 
 1. sudo apt update
 2. sudo apt install -y
@@ -13,7 +13,7 @@ screen -S gensyn
 curl https://raw.githubusercontent.com/imysryasir/Gsnyn-1-Click-Solutions/refs/heads/main/fixgensyn.sh | bash
 cd $HOME && rm -rf gensyn-testnet && git clone https://github.com/zunxbt/gensyn-testnet.git && chmod +x gensyn-testnet/gensyn.sh && ./gensyn-testnet/gensyn.sh
 
-📌 IF ANY ERROR TRY THIS 👇
+## IF ANY ERROR TRY THIS 👇
 
 (Main Error Solution Command) curl https://raw.githubusercontent.com/imysryasir/Gsnyn-1-Click-Solutions/refs/heads/main/fixgensyn.sh | bash
 

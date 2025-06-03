@@ -120,8 +120,6 @@ sudo apt update && sudo apt install -y \
 
 ## 🚀 Start the Gensyn Node
 
-Use a `screen` session so the process continues running after logout:
-
 ```bash
 screen -S gensyn
 ```
@@ -160,7 +158,7 @@ screen -r
 ## Delete a screen session :
 
 ```bash
-screen -S 65432.Gensyn -X quit
+screen -S 65432.gensyn -X quit
 ```
 
 ### Remove existing swarm directory:

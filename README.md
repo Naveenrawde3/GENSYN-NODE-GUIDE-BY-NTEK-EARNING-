@@ -91,52 +91,10 @@ chmod +x backup.sh
 
 ---
 
-#### UPDATE NEW VERSION 😱😱
+#### UPDATE NEW VERSION 😱😱😱
 
 ## **7. Node Management**
-
-Here's a GitHub README guide for managing your **Gensyn** node using `screen`, particularly focusing on the `screen -r gensyn` command and related tasks:
-
----
-
-# 🧠 Gensyn Node Setup & Management Guide
-
-This guide helps you manage your Gensyn node using GNU Screen on a Linux VPS/server.
-
----
-
-## 📦 Prerequisites
-
-Ensure the following packages are installed:
-
-```bash
-sudo apt update && sudo apt install -y \
-  python3 python3-venv python3-pip \
-  curl wget screen git lsof nano unzip \
-  iproute2 build-essential gcc g++
-```
-
----
-
-## 🚀 Start the Gensyn Node
-
-```bash
-screen -S gensyn
-```
-
-Then run your Gensyn node inside the screen:
-
-```bash
-# Clone and start Gensyn node
-git clone https://github.com/zunxbt/rl-swarm.git
-cd rl-swarm
-./start.sh
-```
-
-(Adjust based on your actual start command if different.)
-
----
-
+  
 ## 🔄 Inter Gensyn Screen :
 
 ```bash

@@ -240,10 +240,14 @@ nano hivemind_exp/configs/mac/grpo-qwen-2.5-0.5b-deepseek-r1.yaml
 ```
 
 > After editing, press `CTRL + X`, then `CTRL + Y`, then `Enter` to save.
+>
+> 
 
----
+### 11. Drop File (Local PC - Termius PC)
 
-## 🚀 Step 11: Start RL-Swarm
+
+
+## 🚀 Step 12: Start RL-Swarm
 
 ```bash
 RL_SWARM_UNSLOTH=False ./run_rl_swarm.sh
@@ -251,7 +255,7 @@ RL_SWARM_UNSLOTH=False ./run_rl_swarm.sh
 
 ---
 
-## 🌐 Step 12: Expose Frontend via LocalTunnel
+## 🌐 Step 13: Expose Frontend via LocalTunnel
 
 ### 1. Install LocalTunnel:
 

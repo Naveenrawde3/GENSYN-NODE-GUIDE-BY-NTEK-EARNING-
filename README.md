@@ -245,6 +245,9 @@ nano hivemind_exp/configs/mac/grpo-qwen-2.5-0.5b-deepseek-r1.yaml
 
 ### 11. Drop File (Local PC - Termius PC)
 
+ • Drop Your swarm.pem File - Local PC To Terminus PC
+ 
+![17489820394627516665887876140114](https://github.com/user-attachments/assets/06fde5a8-fa7f-42ab-851c-81e69ff37bf3)
 
 
 ## 🚀 Step 12: Start RL-Swarm

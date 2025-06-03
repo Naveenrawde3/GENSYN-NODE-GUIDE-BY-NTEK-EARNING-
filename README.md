@@ -91,6 +91,8 @@ chmod +x backup.sh
 
 ---
 
+#### UPDATE NEW VERSION 😱😱
+
 ## **7. Node Management**
 
 ## Check screen sessions :

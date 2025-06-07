@@ -4,96 +4,9 @@
 
 ---
 
-# Gensyn Testnet Node Setup Guide
+#### UPDATE NEW VERSION GENSYN NODE 😱😱😱
 
-This guide walks you through setting up a Gensyn testnet node on a Ubuntu-based server.
-
----
-
-## **Prerequisites**
-
-Ensure your system is up to date:
-
-```bash
-sudo apt update
-sudo apt install -y
-```
-
-Install required packages:
-
-```bash
-sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wget screen git lsof nano unzip iproute2
-```
-
----
-
-## **1. Install Node Dependencies**
-
-```bash
-curl -sSL https://raw.githubusercontent.com/zunxbt/installation/main/node.sh | bash
-```
-
----
-
-## **2. Start a Screen Session**
-
-```bash
-screen -S gensyn
-```
-
----
-
-## **3. Apply Fix Script**
-
-```bash
-curl https://raw.githubusercontent.com/imysryasir/Gsnyn-1-Click-Solutions/refs/heads/main/fixgensyn.sh | bash
-```
-
----
-
-## 4. Clone and Run Gensyn Node :
-
-```bash
-cd $HOME
-rm -rf gensyn-testnet
-git clone https://github.com/zunxbt/gensyn-testnet.git
-chmod +x gensyn-testnet/gensyn.sh
-./gensyn-testnet/gensyn.sh
-```
-
----
-
-## Main Error Solution (If Needed) :
-
-```bash
-curl https://raw.githubusercontent.com/imysryasir/Gsnyn-1-Click-Solutions/refs/heads/main/fixgensyn.sh | bash
-```
-
----
-
-## **5. Start RL Swarm :
-
-```bash
-cd rl-swarm
-RL_SWARM_UNSLOTH=False ./run_rl_swarm.sh
-```
-
----
-
-## **6. Backup Your Node**
-
-```bash
-[ -f backup.sh ] && rm backup.sh
-curl -sSL -O https://raw.githubusercontent.com/AbhiEBA/gensyn1/main/backup.sh
-chmod +x backup.sh
-./backup.sh
-```
-
----
-
-#### UPDATE NEW VERSION 😱😱😱
-
-## **7. Node Management**
+## Node Management**
   
 ## 🔄 Inter Gensyn Screen :
 
@@ -271,6 +184,17 @@ sudo npm install -g localtunnel
 ```bash
 lt --port 3000
 ```
+
+## **14. Backup Your Node**
+
+```bash
+[ -f backup.sh ] && rm backup.sh
+curl -sSL -O https://raw.githubusercontent.com/AbhiEBA/gensyn1/main/backup.sh
+chmod +x backup.sh
+./backup.sh
+```
+
+---
 
 ### Useful Links**
 
